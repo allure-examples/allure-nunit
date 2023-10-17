@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{44AE33B8-08CD-4A90-89F6-C1FB792826A2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allure.Examples.NUnit", "tests\Allure.Examples.NUnit\Allure.Examples.NUnit.csproj", "{6C87637D-1B12-4001-9B20-5206B7E2517B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allure.Examples.NUnit3", "tests\Allure.Examples.NUnit3\Allure.Examples.NUnit3.csproj", "{6C87637D-1B12-4001-9B20-5206B7E2517B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{94022612-7518-4FDA-BBD1-4F0C565A67DA}"
 EndProject

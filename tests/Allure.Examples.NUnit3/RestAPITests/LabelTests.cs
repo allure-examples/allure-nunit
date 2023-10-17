@@ -1,4 +1,4 @@
-namespace Allure.Examples.NUnit.RestAPITests;
+namespace Allure.Examples.NUnit3.RestAPITests;
 
 [AllureNUnit]
 [AllureLabel("layer", "rest")]

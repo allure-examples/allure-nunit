@@ -1,4 +1,4 @@
-﻿namespace Allure.Examples.NUnit.WebUITests;
+﻿namespace Allure.Examples.NUnit3.WebUITests;
 
 [AllureFeature("Milestones UI")]
 class MilestoneTests : WebUITestFixtureBase

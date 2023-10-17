@@ -1,4 +1,4 @@
-﻿namespace Allure.Examples.NUnit.WebUITests;
+﻿namespace Allure.Examples.NUnit3.WebUITests;
 
 [AllureNUnit]
 [AllureLabel("layer", "web")]
