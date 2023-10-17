@@ -22,7 +22,6 @@ abstract class WebUITestFixtureBase
         Step("Close session");
     }
 
-    [AllureStep("Rollback changes")]
     protected virtual async Task RollbackChanges() => await Task.CompletedTask;
 
     protected async Task MaybeThrowElementNotFoundException()

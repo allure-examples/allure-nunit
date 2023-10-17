@@ -40,7 +40,6 @@ class LabelTests
     [AllureStep("When I create new label with title {title} via API")]
     public void PostNewLabel(string title)
     {
-        Step("GET /repos/:owner/:repo/labels?text=" + title);
         Step("POST /repos/:owner/:repo/labels");
     }
 
@@ -61,8 +60,7 @@ class LabelTests
     [AllureStep("Then I should not see label with title {title} via api")]
     public void AssertNoLabel(string title)
     {
-        var labelId = FindLabelByTitle(title);
-        Step($"GET /repos/:owner/:repo/labels/{labelId}");
+        _ = FindLabelByTitle(title);
     }
 
     int FindLabelByTitle(string title)
