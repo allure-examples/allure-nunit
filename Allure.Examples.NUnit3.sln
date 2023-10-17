@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{44AE33B8-08CD-4A90-89F6-C1FB792826A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allure.Examples.NUnit", "tests\Allure.Examples.NUnit\Allure.Examples.NUnit.csproj", "{6C87637D-1B12-4001-9B20-5206B7E2517B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{94022612-7518-4FDA-BBD1-4F0C565A67DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{044B0998-2BC9-411A-80B2-D1AF7B2CB0D2}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\allure-report.yml = .github\workflows\allure-report.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{DD093A1B-125D-4C99-ACA8-898FE51BB5CE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C87637D-1B12-4001-9B20-5206B7E2517B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C87637D-1B12-4001-9B20-5206B7E2517B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C87637D-1B12-4001-9B20-5206B7E2517B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C87637D-1B12-4001-9B20-5206B7E2517B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C87637D-1B12-4001-9B20-5206B7E2517B} = {44AE33B8-08CD-4A90-89F6-C1FB792826A2}
+		{044B0998-2BC9-411A-80B2-D1AF7B2CB0D2} = {94022612-7518-4FDA-BBD1-4F0C565A67DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F6F3B83-6F2A-4B66-B92A-F683ABA3EDAE}
+	EndGlobalSection
+EndGlobal
