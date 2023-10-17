@@ -1,7 +1,7 @@
 name: Allure Report
 
 env:
-    SOLUTION_FILE: Allure.Examples.NUnit.sln
+    SOLUTION_FILE: Allure.Examples.NUnit3.sln
     BUILD_CONFIGURATION: Debug
 
 on:
