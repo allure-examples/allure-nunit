@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Oct 18 11:41:47 GMT 2023","Wed Oct 18 11:41:47 GMT 2023","6","","","","LabelTests","CreateNewLabelByAuthorizedUser","Create new label by authorized user",""
+"failed","Wed Oct 18 11:41:47 GMT 2023","Wed Oct 18 11:41:47 GMT 2023","30","","","","LabelTests","AddLabelToExistingIssueByAuthorizedUser","Add label to existing issue by authorized user",""
+"passed","Wed Oct 18 11:41:47 GMT 2023","Wed Oct 18 11:41:47 GMT 2023","2","","","","LabelTests","NewLabelTest","Create new label via API",""
+"passed","Wed Oct 18 11:41:47 GMT 2023","Wed Oct 18 11:41:47 GMT 2023","3","","","","MilestoneTests","CreateNewMilestoneByAuthorizedUser","Create new milestone by authorized user",""
+"passed","Wed Oct 18 11:41:47 GMT 2023","Wed Oct 18 11:41:47 GMT 2023","48","","","","LabelTests","DeleteLabelTest","Delete label via API",""
+"failed","Wed Oct 18 11:41:47 GMT 2023","Wed Oct 18 11:41:47 GMT 2023","2","","","","LabelTests","DeleteExistingLabelByAuthorizedUser","Delete existing label by authorized user",""
+"passed","Wed Oct 18 11:41:47 GMT 2023","Wed Oct 18 11:41:47 GMT 2023","6","","","","MilestoneTests","CloseMilestoneByAuthorizedUser","Close existing milestone by authorized user",""
