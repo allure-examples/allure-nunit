@@ -28,7 +28,7 @@ class LabelTests
     }
 
     [Test]
-    [AllureName("Create new label via API")]
+    [AllureName("Delete label via API")]
     [AllureTag("regress")]
     public void DeleteLabelTest()
     {
