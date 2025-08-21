@@ -1,11 +1,16 @@
-﻿namespace Allure.Examples.NUnit3.WebUITests;
+﻿using System.Threading.Tasks;
+using Allure.Net.Commons;
+using Allure.NUnit.Attributes;
+using NUnit.Framework;
+
+namespace Allure.Examples.NUnit3.WebUITests;
 
 [AllureFeature("Labels UI")]
 class LabelTests : WebUITestFixtureBase
 {
     protected override async Task RollbackChanges()
     {
-        await Step(
+        await AllureApi.Step(
             "Delete label \"hello\"",
             async () => await Task.CompletedTask
         );

@@ -1,11 +1,16 @@
-﻿namespace Allure.Examples.NUnit3.WebUITests;
+﻿using System.Threading.Tasks;
+using Allure.Net.Commons;
+using Allure.NUnit.Attributes;
+using NUnit.Framework;
+
+namespace Allure.Examples.NUnit3.WebUITests;
 
 [AllureFeature("Milestones UI")]
 class MilestoneTests : WebUITestFixtureBase
 {
     protected override async Task RollbackChanges()
     {
-        await Step(
+        await AllureApi.Step(
             "Delete milestone \"hello\"",
             async () => await Task.CompletedTask
         );

@@ -1,4 +1,11 @@
-﻿namespace Allure.Examples.NUnit3.WebUITests;
+﻿using System;
+using System.Threading.Tasks;
+using Allure.Net.Commons;
+using Allure.NUnit;
+using Allure.NUnit.Attributes;
+using NUnit.Framework;
+
+namespace Allure.Examples.NUnit3.WebUITests;
 
 [AllureNUnit]
 [AllureLabel("layer", "web")]
@@ -18,8 +25,8 @@ abstract class WebUITestFixtureBase
     [AllureAfter("Dispose session")]
     public async Task Teardown()
     {
-        await Step("Rollback changes", this.RollbackChanges);
-        Step("Close session");
+        await AllureApi.Step("Rollback changes", this.RollbackChanges);
+        AllureApi.Step("Close session");
     }
 
     protected virtual async Task RollbackChanges() => await Task.CompletedTask;

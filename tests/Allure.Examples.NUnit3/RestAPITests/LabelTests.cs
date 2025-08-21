@@ -1,3 +1,9 @@
+using System;
+using Allure.Net.Commons;
+using Allure.NUnit;
+using Allure.NUnit.Attributes;
+using NUnit.Framework;
+
 namespace Allure.Examples.NUnit3.RestAPITests;
 
 [AllureNUnit]
@@ -40,21 +46,21 @@ class LabelTests
     [AllureStep("When I create new label with title {title} via API")]
     public void PostNewLabel(string title)
     {
-        Step("POST /repos/:owner/:repo/labels");
+        AllureApi.Step("POST /repos/:owner/:repo/labels");
     }
 
     [AllureStep("And I delete label with title {title} via API")]
     public void DeleteLabel(string title)
     {
         var labelId = FindLabelByTitle(title);
-        Step($"DELETE /repos/:owner/:repo/labels/{labelId}");
+        AllureApi.Step($"DELETE /repos/:owner/:repo/labels/{labelId}");
     }
 
     [AllureStep("Then I should see label with title {title} via api")]
     public void AssertLabel(string title)
     {
         var labelId = FindLabelByTitle(title);
-        Step($"GET /repos/:owner/:repo/labels/{labelId}");
+        AllureApi.Step($"GET /repos/:owner/:repo/labels/{labelId}");
     }
 
     [AllureStep("Then I should not see label with title {title} via api")]
@@ -65,7 +71,7 @@ class LabelTests
 
     int FindLabelByTitle(string title)
     {
-        Step("GET /repos/:owner/:repo/labels?text=" + title);
+        AllureApi.Step("GET /repos/:owner/:repo/labels?text=" + title);
         return random.Next(1000);
     }
 }
