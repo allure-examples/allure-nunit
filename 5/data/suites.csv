@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2","Create new milestone by authorized user","","Thu Aug 21 15:59:56 UTC 2025","passed","Thu Aug 21 15:59:56 UTC 2025","","","MilestoneTests","CreateNewMilestoneByAuthorizedUser"
+"","2","Create new label by authorized user","","Thu Aug 21 15:59:56 UTC 2025","broken","Thu Aug 21 15:59:56 UTC 2025","","","LabelTests","CreateNewLabelByAuthorizedUser"
+"","18","Add label to existing issue by authorized user","","Thu Aug 21 15:59:56 UTC 2025","broken","Thu Aug 21 15:59:56 UTC 2025","","","LabelTests","AddLabelToExistingIssueByAuthorizedUser"
+"","24","Delete label via API","","Thu Aug 21 15:59:56 UTC 2025","passed","Thu Aug 21 15:59:56 UTC 2025","","","LabelTests","DeleteLabelTest"
+"","16","Delete existing label by authorized user","","Thu Aug 21 15:59:56 UTC 2025","failed","Thu Aug 21 15:59:56 UTC 2025","","","LabelTests","DeleteExistingLabelByAuthorizedUser"
+"","4","Close existing milestone by authorized user","","Thu Aug 21 15:59:56 UTC 2025","passed","Thu Aug 21 15:59:56 UTC 2025","","","MilestoneTests","CloseMilestoneByAuthorizedUser"
+"","1","Create new label via API","","Thu Aug 21 15:59:56 UTC 2025","passed","Thu Aug 21 15:59:56 UTC 2025","","","LabelTests","NewLabelTest"
